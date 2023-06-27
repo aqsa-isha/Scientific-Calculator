@@ -300,7 +300,6 @@ public class MainActivity extends AppCompatActivity {
                     else return x;
                 }
             }
-
             double parseFactor() {
                 if (eat('+')) return parseFactor(); // unary plus
                 if (eat('-')) return -parseFactor(); // unary minus
